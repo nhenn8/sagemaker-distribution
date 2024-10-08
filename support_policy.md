@@ -4,6 +4,10 @@ Amazon SageMaker Distribution is a set of Docker images that include popular fra
 ## Support Policy
 The table below outlines the release schedule for SageMaker Distribution Image versions and their planned support timelines. AWS provides ongoing functionality and security updates for supported image versions. In some cases, an image version may need to be designated end of support earlier than originally planned if (a) security issues cannot be addressed while maintaining semantic versioning guidelines or (b) any of our major dependencies, like Python, reach end-of-life. AWS can release ad-hoc major or minor versions on an as-needed basis.
 
+AWS Sagemaker will support a minimum of one (1) minor version per supported major version. 
+
+AWS Sagemaker will only support the latest patch version for a given minor version. 
+
 | Version | Description | Release Cadence |
 | :---:   | :---:       | :---:           |
 | Major   | Amazon SageMaker Distribution's major version releases involve upgrading all of its core dependencies to the latest compatible versions. These major releases may also add or remove packages as part of the update. Major versions are denoted by the first number in the version string, such as 1.0, 2.0, or 3.0. | 6 months |
